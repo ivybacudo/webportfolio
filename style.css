@@ -13,7 +13,7 @@ body {
 
 .bg-color {
 	/*background-color: #99b9de;*/
-	background-image: url(./images/paper.jpg);
+	background-image: url(./images/vase.jpg);
 	background-size: cover;
 	background-repeat: no repeat;
 	background-position: center;
@@ -356,22 +356,22 @@ header h1 {
 }
 
 .accordion {
-  background: #333;
+  background: #f3f6f4;
   width: 100%;
   min-width: 750px;
   display: block;
   list-style-type: none;
   overflow: hidden;
-  height: 200px;
+  height: 120px;
   font-size: 0;
 }
 
 .tab {
   display: inline-block;
-  background-color: #444;
+  background-color: #f8f7c8;
   border-right: #333 1px solid;
   width: 80px;
-  height: 200px;
+  height: 120px;
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -393,9 +393,9 @@ header h1 {
 .tab .content {
   background: #fff;
   width: 360px;
-  height: 200px;
+  height: 120px;
   margin-left: 80px;
-  padding: 40px 0 0 0px;
+  padding: 15px 0 0 0px;
   position: relative;
 }
 
@@ -414,10 +414,10 @@ header h1 {
 .social a:before {
   transition: all 0.4s ease-in-out 0.1s;
   width: 80px;
-  height: 200px;
+  height: 120px;
   position: absolute;
   text-indent: 0;
-  padding-top: 90px;
+  padding-top: 80px;
   padding-left: 25px;
   display: block;
   font: normal 30px;
@@ -426,9 +426,9 @@ header h1 {
 
 .social a:after {
   font-size: 48px;
-  padding-left: 20px;
-  padding-top: 80px;
-  margin-left: 85px;
+  padding-left: 15px;
+  padding-top: 70px;
+  margin-left: 80px;
 }
 
 
@@ -459,14 +459,14 @@ header h1 {
   background-color: #00a9cd;
 }
 
-.instagram {
+.instagram a:before,
+.instagram a:after {
   content: "\f16d";
 }
+.instagram a:after {
+	content: "\f16d";
+  background-color: #f43022;
 }
-.instagram {
-  background-color: #6dc993;
-}
-
 
 @media (max-width: 950px) {
   .container {
