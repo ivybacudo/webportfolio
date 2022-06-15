@@ -120,6 +120,8 @@ body {
 	font-weight: bolder;
 	font-size: 2rem;
 }
+
+
 .about-me-sub, .quote, .quote-name {
 	font-weight: bolder;
 	font-size: 1.5rem;
@@ -290,6 +292,7 @@ button:hover {
     transition: .4s;
 }
 
+/*General Sibling Selector*/
 input ~ label {
     position: absolute;
     top: 16px;
