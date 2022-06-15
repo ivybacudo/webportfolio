@@ -61,6 +61,14 @@ body {
 .navbar {
 	position: sticky;
 	background-color: none;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+
+}
+
+.nav-name {
+	font-size: 2.1rem;
 }
 
 .nav {
@@ -357,8 +365,8 @@ label {
 
 /*Footer*/
 .container {
-  margin: 40px auto;
-  width: 90%;
+  margin: 10px auto;
+  width: 80%;
 }
 
 header h1 {
@@ -370,7 +378,7 @@ header h1 {
 .accordion {
   background: #f3f6f4;
   width: 100%;
-  min-width: 750px;
+  min-width: 780px;
   display: block;
   list-style-type: none;
   overflow: hidden;
@@ -382,7 +390,7 @@ header h1 {
   display: inline-block;
   background-color: #f8f7c8;
   border-right: #333 1px solid;
-  width: 80px;
+  width: 90px;
   height: 120px;
   overflow: hidden;
   position: relative;
@@ -404,7 +412,7 @@ header h1 {
 
 .tab .content {
   background: #fff;
-  width: 360px;
+  width: 350px;
   height: 120px;
   margin-left: 80px;
   padding: 15px 0 0 0px;
@@ -419,7 +427,7 @@ header h1 {
 .tab .content p {
   font-size: 0.8rem;
   line-height: 1.4rem;
-  padding-right: 30px;
+  padding-right: 15px;
 }
 
 .social a:after,
@@ -430,7 +438,7 @@ header h1 {
   position: absolute;
   text-indent: 0;
   padding-top: 80px;
-  padding-left: 25px;
+  padding-left: 15px;
   display: block;
   font: normal 30px;
   color: #fff;
@@ -438,9 +446,9 @@ header h1 {
 
 .social a:after {
   font-size: 48px;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-top: 70px;
-  margin-left: 80px;
+  margin-left: 85px;
 }
 
 
@@ -523,3 +531,11 @@ header h1 {
 }
 /*Footer End*/
 
+#about-me-page {
+	display: flex;
+	justify-content: center;
+}
+.about-me-sub {
+	display: flex;
+	justify-content: center;
+}

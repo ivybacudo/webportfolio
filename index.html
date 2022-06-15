@@ -29,18 +29,29 @@
 
 	<!-- Navbar -->
 
-        <div class="navbar">
-        	<div class="nav portfolio">Portfolio</div>
-            <div class="nav">
-                Home
-            </div>
-            <div class="nav">
-                About Me
-            </div>
-            <div class="nav">
-                Projects
-            </div>
-		</div>
+		<nav class="navbar-top navbar-expand-lg text-dark fixed-top">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<h2 class="mr-auto nav-name text-primary">Ivy Bacudo</h2>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav">
+						<a class="nav-link" href="#about-me-page">About Me <span class="sr-only"></span></a>
+					</li>
+					<li class="nav">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav">
+						<a class="nav-link" href="#contact-me">Contact Me</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+
+		
+
 	 <!--  End of Navbar -->
 
 	 
@@ -67,10 +78,11 @@
 
 
 	<!-- About me -->
-    <div class="container-fluid">
-    	<div class="p-3 e">
-        <h5 class="about-me text-center">About Me</h5>
-        <p class="about-me-sub">I am a dynamic Full Stack Software Developer based in the Philippines. Coding bootcamp graduate with extensive background in various coding languages and developing websites. Professional strengths include creative problem-solving, written and verbal communication, and time management. Detail-oriented mindset from 5+ years of experience in the banking industry.</p>
+    <div class="container-fluid h-100 d-sm-flex ">
+    	<div class="justify-content center col-sm-10 col-md-8 col-lg-8">
+    		<div class="p-3 e">
+        <h5 id="about-me-page" class="about-me justify-content-center">About Me</h5>
+        <p class="about-me-sub text-justify  col-sm-10 col-md-8 col-lg-8">I am a dynamic Full Stack Software Developer based in the Philippines. Coding bootcamp graduate with extensive background in various coding languages and developing websites. Professional strengths include creative problem-solving, written and verbal communication, and time management. Detail-oriented mindset from 5+ years of experience in the banking industry.</p>
     </div>
 
     <!-- About me end -->
@@ -78,10 +90,11 @@
 	<!-- Random quotes -->
 	<div class="quoterandom p-3 text-center">
 	
-        <p class="quote">"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it."</p>
+        <p class="quote text-justify center col-sm-10 col-md-12 col-lg-8">"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it."</p>
              <p class="quote-name">– Patrick McKenzie </p>
 
     </div>
+    	</div>
     </div>
 	<!-- End of Random quotes -->
         
@@ -91,7 +104,7 @@
 	
 	<!-- Other Projects Start -->
 	 <div class="text-center container-fluid">
-	 		<h3 class="mt-15 cap-project">Capstone Projects</h3>
+	 		<h3 id="projects" class="mt-15 cap-project">Capstone Projects</h3>
             <div class="d-block d-md-flex justify-content-center ">
 
                 <div class="p-3">
@@ -119,7 +132,7 @@
             <!-- Other Projects End  -->
 	 </div>
 
-	 <div class="d-flex flex-column ">
+	 <div id="contact-me" class="d-flex flex-column ">
 	 	<!-- Start of the Form -->
 	 <h2>Message Me.</h2>
 
