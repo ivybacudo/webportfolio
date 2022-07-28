@@ -12,6 +12,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono:wght@600&family=Roboto:wght@300;700&family=Urbanist:wght@100&display=swap" rel="stylesheet">
+
   <!-- Bootstrap Link -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
@@ -41,7 +45,7 @@
     </div>
 
     <div class="nav-links ml-auto">
-      <a href=""><img width="123" src="./Images/contactme.PNG"></a>
+      <a href="#footer"><img width="123" src="./Images/contactme.PNG"></a>
       <a href="#projects"><img width="111" src="./Images/projects.PNG"></a>
       <a href="#about-me-page"><img width="119" src="./Images/aboutme.PNG"></a>
     </div>
@@ -121,7 +125,7 @@
   <div class="d-block d-md-flex justify-content-center ">
 
     <div class="p-3 projects">
-      <img width="380" class="img-fluid cap1" src="./images/cap1new.PNG">
+      <img id="capstone" width="380" class="img-fluid cap1" src="./Images/cap1new.PNG">
       <h5 class="title-cap" mt-2>Capstone 1</h5>
       <p>Responsive web design using HTML, CSS and Bootstrap</p>
       <a href="https://gitlab.com/batch-189-ivy/s13/capstone-1" target="_blank">Gitlab link here</a>
@@ -130,18 +134,19 @@
 
 
     <div class="p-3 projects">
-      <img width="450"  class="img-fluid" src="./images/cap2.PNG" >
+      <img id="capstone" width="450"  class="img-fluid" src="./Images/cap2.PNG" >
       <h5 class="title-cap">Capstone 2</h5>
-      <p>E-commerce design using Express.js/NodeJS and MongoDB</p>
+      <p>Backend E-commerce design using Express.js/NodeJS and MongoDB</p>
       <a href="https://gitlab.com/batch-189-ivy/s42-s46-capstone2/capstone-2" target="_blank">Gitlab link here</a>
     </div>
 
 
 
     <div class="p-3 projects">
-      <img width="380"  class="img-fluid" src="./images/error404-2.png">
+      <img id="capstone" width="380"  class="img-fluid" src="./Images/cap3.PNG">
       <h5 class="title-cap">Capstone 3</h5>
-      <p>TBA</p>
+      <p>E-commerce design using React JS</p>
+      <a href="https://capstone-3-bacudo-ecommerce-app.vercel.app/" target="_blank">Vercel link here</a>
     </div>
 
   </div>
@@ -151,71 +156,105 @@
 <!-- Other Projects End  -->
 
 
-<!-- Start of the Form -->
-    <!-- <div id="contact-me" class="d-flex flex-column border-dark">
-   <h2>Message Me.</h2>
+<!-- Start of the Footer -->
+  
 
-            <div class="container-fluid justify-content-center input col-sm-12 col-md-10 col-lg-4 ">
-              <label class="name" for="text">Name:</label>
-                <span class="error"></span>
-                <input required type="text" name="name" id="name">
-            </div>
-            
-            <div class="input col-sm-10 col-md-8 col-lg-4 container-fluid justify-content-center ">
-              <label class="email" for="email">Email:</label>
-                <span class="error"></span>
-                <input required type="email" name="email" id="email">
-            </div>
 
-            <div class="input col-sm-10 col-md-8 col-lg-4 container-fluid justify-content-center ">
-              <label for="text">Message:</label> <br>
-          <textarea name="message" rows="3" id="notes"></textarea>
-          <span class="error"></span>
-            </div>
-
-            
-         
+<footer id="footer" class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">Capstone 1 made by Ivy Bacudo for Zuitt Coding Bootcamp</h1>
         
-          <button type="button" class="send-btn bg-dark text-light pr-3 pl-3 font-weight-bold rounded-pill container-fluid justify-content-center" data-toggle="modal" data-target="#exampleModal">
-           Send Message
-          </button>
+    
+    <address>
+      5555 Somewhere In The Quezon City<br>
+          
+      <a id="footer__btn" class="footer__btn" href="mailto:bacudoivy@gmail.com">Email Me</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Media</h2>
 
-         
-          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
-                  <button type="button" class="close width-15px" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-dark">
-                  Message Successfully Sent
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-         
-          <br>
+      <ul class="nav__ul">
+        <li>
+          <a >Online</a>
+        </li>
 
-    </form>
+        <li>
+          <a >Print</a>
+        </li>
+            
+        <li>
+          <a >Alternative Ads</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Technology</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a>Hardware Design</a>
+        </li>
+        
+        <li>
+          <a >Software Design</a>
+        </li>
+        
+        <li>
+          <a >Digital Signage</a>
+        </li>
+        
+        <li>
+          <a >Automation</a>
+        </li>
+        
+        <li>
+          <a>Artificial Intelligence</a>
+        </li>
+        
+        <li>
+          <a >IoT</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a >Privacy Policy</a>
+        </li>
+        
+        <li>
+          <a >Terms of Use</a>
+        </li>
+        
+        <li>
+          <a >Sitemap</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div id="legal" class="legal">
+    <p>&copy; 2022 Something. All rights reserved.</p>
+    
+  </div>
+</footer>
+
+  <!-- End of the Footer -->
 
 
-  </div>  -->
-
-  <!-- End of the Form -->
 
 
 
+  <!-- STICKY FOOTER START -->
 
-
-  <!-- FOOTER START -->
-
-  <footer class="footer">
+  <div id="footer-sticky">
     <script src="https://kit.fontawesome.com/86be3a6823.js" crossorigin="anonymous"></script>
     <div class="container-fluid text-center m-sm-none">
     <!-- <div class="footer-text ">
@@ -229,9 +268,9 @@
       <a href="https://twitter.com/IvyBacudo" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
     </div>
   </div>
-</footer>
+</div>
 
-<!-- FOOTER END -->
+<!-- STICKY FOOTER END -->
 
 <script src="./index.js"></script>
 
